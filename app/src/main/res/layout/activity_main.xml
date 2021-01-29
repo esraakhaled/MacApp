@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/macdonald"
+        android:scaleType="centerCrop"
+        />
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Address: 23-Jul,suez,Egypt."
+         android:fontFamily="sans-serif-light"
+         android:textSize="20sp"
+         android:textColor="@android:color/black"
+         android:id="@+id/add_text"
+         android:textStyle="bold"
+
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone: 555-468-0602"
+        android:autoLink="phone"
+        android:fontFamily="sans-serif-light"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/add_text"
+        android:id="@+id/phone_txt"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="closes from 2 a.m until 7 a.m"
+        android:fontFamily="sans-serif-light"
+        android:layout_below="@id/phone_txt"
+       android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>
